@@ -397,13 +397,21 @@
           {
             "id": "String3",
             "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg"
+          },
+          {
+            "id": "String4",
+            "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg"
+          },
+          {
+            "id": "String5",
+            "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg"
           }
         ]
       }
     },
     {
       "type": "PRODUCTS_SLIDER_DESCRIPTION",
-      "productsSliderDecription": {
+      "productsSliderDescription": {
         "id": "12",
         "productsDecription": [
           {
