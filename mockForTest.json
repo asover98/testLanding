@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.pinimg.com/originals/57/ce/a7/57cea7fba1e235628a139e55c0b82b3d.jpg",
+        "title": "Цитата из Наруто 1",
+        "description": "Нельзя понять всю красоту леса оценивая лишь одно дерево",
+        "dateCreated": 1626870147
+    },
+    {
+        "id": 2,
+        "image": "https://i.pinimg.com/originals/57/ce/a7/57cea7fba1e235628a139e55c0b82b3d.jpg",
+        "title": "Цитата из Наруто 2",
+        "description": "Извините за опоздание, я заблудился на дороге под названием жизнь.",
+        "dateCreated": 1626871147
+    },
+    {
+        "id": 3,
+        "image": "https://i.pinimg.com/originals/57/ce/a7/57cea7fba1e235628a139e55c0b82b3d.jpg",
+        "title": "Цитата из Наруто 3 (Марк Твен)",
+        "description": "Никогда не спорь с идиотом. Сначала он опустит тебя до своего уровня, а потом задавит опытом.",
+        "dateCreated": 1626872147
+    },
+    {
+        "id": 4,
+        "image": "https://i.pinimg.com/originals/57/ce/a7/57cea7fba1e235628a139e55c0b82b3d.jpg",
+        "title": "Цитата из Наруто 4",
+        "description": "Я бы с удовольствием пригласил тебя зайти и выпить, но боюсь, что ты согласишься.",
+        "dateCreated": 1626873147
+    }
+]
