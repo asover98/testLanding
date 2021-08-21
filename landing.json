@@ -1,682 +1,788 @@
 {
+  "title": "Летняя распродажа",
   "blocks": [
     {
+      "id": "1",
       "type": "BANNER",
       "banner": {
-        "id": "1",
-        "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg",
-        "title": "Hoff Days",
-        "subtitle": "Блок с фоновой картинкой и возможностью наносит текст"
+        "image": "https://dev-re-1.hoff.ru/upload/medialibrary/78b/78b81a5686543e3596f723012d585fb8.png",
+        "title": "Летняя распродажа",
+        "description": "Летняя распродажа. Скидки до 40%"
       }
     },
     {
+      "id": "2",
       "type": "MENU",
-      "menu": {
-        "id": "2",
-        "title": "Меню",
-        "menuItems": [
-          {
-            "id": "1",
-            "name": "Блок меню 1"
-          },
-          {
-            "id": "2",
-            "name": "Блок меню 2"
-          },
-          {
-            "id": "3",
-            "name": "Блок меню 3"
-          },
-          {
-            "id": "4",
-            "name": "Блок меню 4"
-          },
-          {
-            "id": "5",
-            "name": "Блок меню 5"
-          },
-          {
-            "id": "6",
-            "name": "Блок меню 6"
-          },
-          {
-            "id": "7",
-            "name": "Блок меню 7"
-          }
-        ]
-      }
+      "title": "Меню",
+      "menuItems": [
+        {
+          "id": "#",
+          "name": "Ссылка 1"
+        },
+        {
+          "id": "#",
+          "name": "Ссылка 2"
+        },
+        {
+          "id": "#",
+          "name": "Ссылка 3"
+        },
+        {
+          "id": "#",
+          "name": "Ссылка 4"
+        }
+      ]
     },
     {
+      "id": "3",
       "type": "TIMER",
       "eventTimer": {
-        "id": "3",
-        "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg",
-        "startDate": 1624827601,
-        "finishDate": 1627419601
+        "image": "https://dev-re-1.hoff.ru/upload/medialibrary/3a0/3a01011629a822d4fbf25a6946573f14.png",
+        "time": 1626901200
       }
     },
     {
-      "type": "LUNCH_GROUPS",
+      "id": "4",
+      "type": "PRODUCTS",
+      "title": "Разведение категорий landing.catalog.section",
       "button": {
-        "id": "12345",
-        "title": "Обеденные группы"
+        "id": "1281",
+        "title": "Смотреть все разведение категорий landing.catalog.section"
       },
-      "lunchGroups": {
-        "id": "4",
-        "title": "Обеденные группы",
-        "productItems": [
-          {
-            "id": "4498646",
-            "name": "Диван-кровать Парма",
-            "image": "https://hoff.ru/upload/iblock/4d8/4d866970f2b2f2e343194aec8e783283.jpg",
-            "isFavorite": false,
-            "prices": {
-              "new": 11999,
-              "old": 14999
-            },
-            "full_set_prices": null,
-            "isBestPrice": false,
-            "tag": null,
-            "articul": "80327289",
-            "rating": 5,
-            "numberOfReviews": 247,
-            "yellow": false,
-            "statusText": "Доступно для доставки 26 шт.",
-            "bonusesForbuy": 240,
-            "deliveryTime": null,
-            "is_it_kit": 1,
-            "isAvailable": true,
-            "images": [
-              "https://hoff.ru/upload/iblock/a29/a292dc8e3ecff8e4472a544f816c8124.jpg",
-              "https://hoff.ru/upload/iblock/57b/57bd470d70afa7d23a7e8325feefdf23.jpg",
-              "https://hoff.ru/upload/iblock/e67/e6720679858fb6ead7047d20ec6c69ce.jpg",
-              "https://hoff.ru/upload/iblock/b07/b078073cbfcea39d91b3a3786b75650b.jpg",
-              "https://hoff.ru/upload/iblock/8c3/8c3441f9752f5d5cab59bea1ff7259ca.jpg"
-            ],
-            "complexAsOne": null,
-            "categoryId": "636",
-            "categoryTitle": "Прямые тканевые диваны"
+      "products": [
+        {
+          "id": "5517443",
+          "name": "Набор протекторов для мебели MITTE HD190327 ",
+          "image": "https://dev-re-1.hoff.ru/upload/iblock/efb/efbabf7c3567645e0eb79c57c8944ae8.jpg",
+          "isFavorite": false,
+          "prices": {
+            "new": 129,
+            "old": 199
           },
-          {
-            "id": "5985460",
-            "name": "Угловой диван-кровать Торонто",
-            "image": "https://hoff.ru/upload/iblock/db0/db089cba6a076b42a30395d9ea73c3df.jpg",
-            "isFavorite": false,
-            "prices": {
-              "new": 17999,
-              "old": 22999
-            },
-            "full_set_prices": null,
-            "isBestPrice": false,
-            "tag": null,
-            "articul": "80348561",
-            "rating": 4,
-            "numberOfReviews": 218,
-            "yellow": false,
-            "statusText": "Доступно для доставки 4 шт.",
-            "bonusesForbuy": 360,
-            "deliveryTime": null,
-            "is_it_kit": 1,
-            "isAvailable": true,
-            "images": [
-              "https://hoff.ru/upload/iblock/d5e/d5e398dd6b29e665db394dc619591223.jpg",
-              "https://hoff.ru/upload/iblock/3c7/3c79fd25caf4f3567c121186c5eb3d93.jpg",
-              "https://hoff.ru/upload/iblock/6fe/6fefd3759ad87a9b576e0a69f2253b7a.jpg",
-              "https://hoff.ru/upload/iblock/c33/c334ebfe4838f73ea428c4a41ef776d6.jpg",
-              "https://hoff.ru/upload/iblock/16c/16c5c47ecd6d2407611d3550cbdba674.jpg"
-            ],
-            "complexAsOne": null,
-            "categoryId": "638",
-            "categoryTitle": "Угловые тканевые диваны"
+          "discount": 35,
+          "isBestPrice": false,
+          "tag": null,
+          "articul": "80332882",
+          "rating": 5,
+          "numberOfReviews": 1,
+          "statusText": "Доступно для доставки 30 шт.",
+          "offers": null,
+          "unique_title": "Размер спального места",
+          "isAvailable": true,
+          "images": [
+            "https://dev-re-1.hoff.ru/upload/iblock/004/004cda0fd17029cfcc22695c8a421296.jpg",
+            "https://dev-re-1.hoff.ru/upload/iblock/783/78332de3e824d340be14993b802703af.jpg"
+          ],
+          "categoryId": "6886",
+          "categoryTitle": "Мебельные протекторы"
+        },
+        {
+          "id": "6944355",
+          "name": "Сменная кассета Актив Сила Иммунитета ",
+          "image": "https://dev-re-1.hoff.ru/upload/iblock/45b/45b27b9e8fd67338ca77abe67356c539.jpg",
+          "isFavorite": false,
+          "prices": {
+            "new": 349,
+            "old": 349
           },
-          {
-            "id": "5986262",
-            "name": "Угловой диван-кровать Торонто",
-            "image": "https://hoff.ru/upload/iblock/2e1/2e11dabbaa3b08ba75ec51b92ec0acc9.jpg",
-            "isFavorite": false,
-            "prices": {
-              "new": 17999,
-              "old": 22999
-            },
-            "full_set_prices": null,
-            "isBestPrice": false,
-            "tag": null,
-            "articul": "80348560",
-            "rating": 4,
-            "numberOfReviews": 218,
-            "yellow": false,
-            "statusText": "Доступно для доставки 22 шт.",
-            "bonusesForbuy": 360,
-            "deliveryTime": null,
-            "is_it_kit": 1,
-            "isAvailable": true,
-            "images": [
-              "https://hoff.ru/upload/iblock/abd/abd14a5e789d19c7769ec47c06fcf30e.jpg",
-              "https://hoff.ru/upload/iblock/b6f/b6f50ca3598358fa02cdf57b01898b77.jpg",
-              "https://hoff.ru/upload/iblock/98f/98ff1e64f2f479825b7a72f0ad8485c9.jpg",
-              "https://hoff.ru/upload/iblock/8ce/8cede38a6662708b8065563f93a2b8cc.jpg",
-              "https://hoff.ru/upload/iblock/c41/c416bd5bd1c55cf5eb793b34fdddb244.jpg"
-            ],
-            "complexAsOne": null,
-            "categoryId": "638",
-            "categoryTitle": "Угловые тканевые диваны"
-          }
-        ]
-      }
+          "discount": 0,
+          "isBestPrice": false,
+          "tag": null,
+          "articul": "80365015",
+          "rating": 0,
+          "numberOfReviews": 0,
+          "statusText": "Доступно для доставки 30 шт.",
+          "offers": null,
+          "unique_title": "Размер спального места",
+          "isAvailable": true,
+          "images": [
+            "https://dev-re-1.hoff.ru/upload/iblock/4c6/4c6aa051db311ca78c6d679ba5102474.jpg",
+            "https://dev-re-1.hoff.ru/upload/iblock/6e3/6e35f1f4d9b69540376a7944c56af4bb.jpg",
+            "https://dev-re-1.hoff.ru/upload/iblock/5a7/5a7b016bff4215ee0dd6863abd45106d.jpg"
+          ],
+          "categoryId": "6884",
+          "categoryTitle": "Мелочи для кухни"
+        },
+        {
+          "id": "6944363",
+          "name": "Сменная кассета Актив Сила Красоты ",
+          "image": "https://dev-re-1.hoff.ru/upload/iblock/71a/71a72f7eea830123b8f2ac7758f6f787.jpg",
+          "isFavorite": false,
+          "prices": {
+            "new": 349,
+            "old": 349
+          },
+          "discount": 0,
+          "isBestPrice": false,
+          "tag": null,
+          "articul": "80365016",
+          "rating": 0,
+          "numberOfReviews": 0,
+          "statusText": "Доступно для доставки 30 шт.",
+          "offers": null,
+          "unique_title": "Размер спального места",
+          "isAvailable": true,
+          "images": [
+            "https://dev-re-1.hoff.ru/upload/iblock/770/770e2353001c5393f5f72ae7c7e9985c.jpg",
+            "https://dev-re-1.hoff.ru/upload/iblock/137/137240a7f5d85424f1d71b9bfbc06e50.jpg",
+            "https://dev-re-1.hoff.ru/upload/iblock/cba/cba64bbcf710abf353929f49ee020c86.jpg"
+          ],
+          "categoryId": "6884",
+          "categoryTitle": "Мелочи для кухни"
+        },
+        {
+          "id": "6944373",
+          "name": "Сменная кассета Актив Сила Сердца ",
+          "image": "https://dev-re-1.hoff.ru/upload/iblock/8ec/8ec426e83d0f644d667c5d27bfc13555.jpg",
+          "isFavorite": false,
+          "prices": {
+            "new": 349,
+            "old": 349
+          },
+          "discount": 0,
+          "isBestPrice": false,
+          "tag": null,
+          "articul": "80365017",
+          "rating": 0,
+          "numberOfReviews": 0,
+          "statusText": "Доступно для доставки 30 шт.",
+          "offers": null,
+          "unique_title": "Размер спального места",
+          "isAvailable": true,
+          "images": [
+            "https://dev-re-1.hoff.ru/upload/iblock/b2d/b2dd3f79af51a96a982e2f3d8e77e9dd.jpg",
+            "https://dev-re-1.hoff.ru/upload/iblock/265/265caf5bf9246a047d21e8d08a4ae4ed.jpg",
+            "https://dev-re-1.hoff.ru/upload/iblock/62a/62a3466e7c18ce0637b448be1e6aff9e.jpg"
+          ],
+          "categoryId": "6884",
+          "categoryTitle": "Мелочи для кухни"
+        }
+      ]
     },
     {
-      "type": "SOLO_PRODUCT",
-      "soloProduct": {
-        "id": "5",
+      "id": "5",
+      "type": "PRODUCT_ITEM",
+      "product": {
         "images": [
-          "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg",
-          "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg",
-          "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg",
-          "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg",
-          "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg"
+          "https://dev-re-1.hoff.ru/upload/iblock/d36/d36b780743da8c3843444703a9988031.jpg",
+          "https://dev-re-1.hoff.ru/upload/iblock/0a5/0a5186fd4e67b0492af4521d04687038.jpg",
+          "https://dev-re-1.hoff.ru/upload/iblock/685/685a51c906f513df3a42c3d14793ae2b.jpg",
+          "https://dev-re-1.hoff.ru/upload/iblock/b38/b38757eb9e93248f99da2c6ebb5155d9.jpg",
+          "https://dev-re-1.hoff.ru/upload/iblock/4f6/4f672b9a36f5d4cf34066e3ff6822573.jpg",
+          "https://dev-re-1.hoff.ru/upload/iblock/f3b/f3b514bd3d8d19f9d29b6331f3c92ae9.jpg",
+          "https://dev-re-1.hoff.ru/upload/iblock/0a9/0a9fd5dd3c11ee509e45682d67aa2e5a.jpg",
+          "https://dev-re-1.hoff.ru/upload/iblock/506/506991562b5cb499bb3d624db216809c.jpg",
+          "https://dev-re-1.hoff.ru/upload/iblock/f94/f9416b8bcc2d7167201077a0b9e88a5f.jpg",
+          "https://dev-re-1.hoff.ru/upload/iblock/9aa/9aa16eb2e1b1951c04c36d1d2083b9f5.jpg",
+          "https://dev-re-1.hoff.ru/upload/iblock/063/0631244e27363232b8109eb8f7247d7f.jpg",
+          "https://dev-re-1.hoff.ru/upload/iblock/ce7/ce7a0949dc996bcecbbaf7a4510b8809.jpg",
+          "https://dev-re-1.hoff.ru/upload/iblock/ecf/ecfee93441f02f9d8680c6d5bb0c696a.jpg",
+          "https://dev-re-1.hoff.ru/upload/iblock/7fa/7faf580f4c07f508792df73cf31b9ba2.jpg",
+          "https://dev-re-1.hoff.ru/upload/iblock/fd2/fd27fb4a888bd4897add731b9ef7a10d.jpg",
+          "https://dev-re-1.hoff.ru/upload/iblock/e34/e34ee3b215fbf450ab6829b22e74b9f2.jpg",
+          "https://dev-re-1.hoff.ru/upload/iblock/c63/c6314fe6c545a58d1783906080c59cf8.jpg",
+          "https://dev-re-1.hoff.ru/upload/iblock/999/9996b6835455a8a2ec005b8f187ff4d0.jpg",
+          "https://dev-re-1.hoff.ru/upload/iblock/04c/04c81bd8cae96c50c2f19e43ad0e4a73.jpg",
+          "https://dev-re-1.hoff.ru/upload/iblock/ec7/ec7ba40bea165d43e441bfe955cf3f10.jpg",
+          "https://dev-re-1.hoff.ru/upload/iblock/cfd/cfde2b65c06c605d307ba8872526d4b1.jpg",
+          "https://dev-re-1.hoff.ru/upload/iblock/655/6554754826dbbfda31ff5dcc75ec3da2.jpg",
+          "https://dev-re-1.hoff.ru/upload/iblock/7f1/7f14ff179ad5914f733c82569bc72e49.jpg"
         ],
-        "articul": "1624827601",
-        "name": "Диван-кровать Парма",
-        "price": 1000,
-        "oldPrice": 2000,
-        "discount": 43
+        "id": "5089916",
+        "articul": "80332846",
+        "name": "Кухонный гарнитур Стелла 2,4 м",
+        "prices": {
+          "new": "26999.00",
+          "old": "26999.00"
+        },
+        "discount": 0,
+        "isBestPrice": false
       },
       "button": {
-        "id": "12345",
+        "id": "5089916",
         "title": "Подробнее"
       }
     },
     {
-      "type": "HORIZONTAL_PRODUCTS_SLIDER",
+      "id": "6",
+      "type": "HORIZONTAL_PRODUCTS",
+      "title": "Диваны и кресла",
       "button": {
-        "id": "12345",
+        "id": "4830",
         "title": "Смотреть все диваны и кресла"
       },
-      "horizontalProductsSlider": {
-        "id": "6",
-        "title": "Диваны и кресла",
-        "items": [
-          {
-            "id": "4498646",
-            "name": "Диван-кровать Парма",
-            "image": "https://hoff.ru/upload/iblock/4d8/4d866970f2b2f2e343194aec8e783283.jpg",
-            "isFavorite": false,
-            "price": 11999,
-            "oldPrice": 14999,
-            "discount": 44,
-            "articul": "80327289",
-            "rating": 5,
-            "available": "Доступно для доставки 26 шт."
+      "products": [
+        {
+          "id": "112589",
+          "name": "Овощечистка Presto ",
+          "image": "https://dev-re-1.hoff.ru/upload/iblock/efb/efb25a3574e3c1098d2c58ddb5e18e19.jpg",
+          "isFavorite": false,
+          "prices": {
+            "new": 339,
+            "old": 339
           },
-          {
-            "id": "4498646",
-            "name": "Диван-кровать Парма",
-            "image": "https://hoff.ru/upload/iblock/4d8/4d866970f2b2f2e343194aec8e783283.jpg",
-            "isFavorite": false,
-            "price": 11999,
-            "oldPrice": 14999,
-            "discount": 44,
-            "articul": "80327289",
-            "rating": 5,
-            "available": "Доступно для доставки 26 шт."
+          "discount": 0,
+          "isBestPrice": false,
+          "articul": "80001201",
+          "rating": 5,
+          "offers": null,
+          "unique_title": "Размер спального места",
+          "available": "Доступно для доставки 3 шт."
+        },
+        {
+          "id": "112591",
+          "name": "Скребок для рыбьей чешуи Presto ",
+          "image": "https://dev-re-1.hoff.ru/upload/iblock/15e/15e764555aa5464b0a0ea4fd11160577.jpg",
+          "isFavorite": false,
+          "prices": {
+            "new": 499,
+            "old": 499
           },
-          {
-            "id": "4498646",
-            "name": "Диван-кровать Парма",
-            "image": "https://hoff.ru/upload/iblock/4d8/4d866970f2b2f2e343194aec8e783283.jpg",
-            "isFavorite": false,
-            "price": 11999,
-            "oldPrice": 14999,
-            "discount": 44,
-            "articul": "80327289",
-            "rating": 5,
-            "available": "Доступно для доставки 26 шт."
+          "discount": 0,
+          "isBestPrice": false,
+          "articul": "80001203",
+          "rating": 0,
+          "offers": null,
+          "unique_title": "Размер спального места",
+          "available": "Доступно для доставки 3 шт."
+        },
+        {
+          "id": "112597",
+          "name": "Орехокол Presto ",
+          "image": "https://dev-re-1.hoff.ru/upload/iblock/3bd/3bdd80907505b5746c9fe5cbaef5f298.jpg",
+          "isFavorite": false,
+          "prices": {
+            "new": 699,
+            "old": 699
           },
-          {
-            "id": "4498646",
-            "name": "Диван-кровать Парма",
-            "image": "https://hoff.ru/upload/iblock/4d8/4d866970f2b2f2e343194aec8e783283.jpg",
-            "isFavorite": false,
-            "price": 11999,
-            "oldPrice": 14999,
-            "discount": 44,
-            "articul": "80327289",
-            "rating": 5,
-            "available": "Доступно для доставки 26 шт."
-          }
-        ]
-      }
+          "discount": 0,
+          "isBestPrice": false,
+          "articul": "80001211",
+          "rating": 5,
+          "offers": null,
+          "unique_title": "Размер спального места",
+          "available": "Доступно для доставки 21 шт."
+        },
+        {
+          "id": "112599",
+          "name": "Открывашка Presto ",
+          "image": "https://dev-re-1.hoff.ru/upload/iblock/360/3602c30325df428cd0672b32fd2c500d.jpg",
+          "isFavorite": false,
+          "prices": {
+            "new": 399,
+            "old": 559
+          },
+          "discount": 28,
+          "isBestPrice": false,
+          "articul": "80001215",
+          "rating": 5,
+          "offers": null,
+          "unique_title": "Размер спального места",
+          "available": "Доступно для доставки 10 шт."
+        }
+      ]
     },
     {
+      "id": "7",
       "type": "SERVICE_REGISTRATION",
-      "serviceRegistration": {
-        "id": "7",
-        "title": "Оформление услуги",
-        "description": "Услугу доставки можно офрмить и оплатить",
-        "unnumberatedInfo": [
-          {
-            "id": "String",
-            "title": "String",
-            "list": [
-              "String",
-              "String2",
-              "String3"
-            ]
-          },
-          {
-            "id": "String",
-            "title": "String",
-            "list": [
-              "String4",
-              "String5",
-              "String6"
-            ]
-          }
-        ]
-      }
+      "title": "Оформление услуги",
+      "description": "Услугу доставки можно офрмить и оплатить",
+      "services": [
+        {
+          "title": "При покупке товара в гипермаркете Hoff",
+          "icon": "https://dev-re-1.hoff.ru/upload/medialibrary/342/342a4b4a5abd393838ed0c675f52ea8b.png",
+          "list": []
+        },
+        {
+          "title": "При покупке в Интернет-магазине",
+          "icon": "https://dev-re-1.hoff.ru/upload/medialibrary/539/5398929548b4220b72fccdd0dceb4f6a.png",
+          "list": [
+            "в момент доставки товара (наличными средствами)",
+            "на сайте, в момент оплаты заказа банковской картой"
+          ]
+        }
+      ]
     },
     {
-      "type": "CATEGORIES_DISCOUNT",
-      "categoriesDiscount": {
-        "id": "8",
-        "landingCategories": [
-          {
-            "id": "String",
-            "title": "String",
-            "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg",
-            "discount": 22
-          },
-          {
-            "id": "String2",
-            "title": "String1",
-            "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg",
-            "discount": 22
-          },
-          {
-            "id": "String3",
-            "title": "String2",
-            "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg",
-            "discount": 22
-          },
-          {
-            "id": "String4",
-            "title": "String3",
-            "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg",
-            "discount": 22
-          }
-        ]
-      }
+      "id": "8",
+      "type": "CATEGORIES",
+      "categories": [
+        {
+          "id": "1354",
+          "title": "Техника для кухни",
+          "image": "https://dev-re-1.hoff.ru/upload/medialibrary/2cb/2cb720dfa7f4e197aba0ae1058a20735.jpg",
+          "discount": 36
+        },
+        {
+          "id": "6307",
+          "title": "Камины",
+          "image": "https://dev-re-1.hoff.ru/upload/medialibrary/80f/80fdb16bfd5be0ad64fff761dd4e4733.jpg",
+          "discount": 26
+        },
+        {
+          "id": "6309",
+          "title": "Техника для уборки",
+          "image": "https://dev-re-1.hoff.ru/upload/medialibrary/252/252c584563c3bc8c8165e9c50ea7d2a5.jpg",
+          "discount": null
+        },
+        {
+          "id": "6308",
+          "title": "Умная техника",
+          "image": "https://dev-re-1.hoff.ru/upload/medialibrary/9e9/9e9e081ffbd4202d523d37c4d107d241.jpg",
+          "discount": 54
+        }
+      ]
     },
     {
-      "type": "SERVICES_ADDITIONAL_INFO",
-      "servicesAdditionalInfo": {
-        "id": "9",
-        "title": "Услуги и сервисы",
-        "serviceInfo": [
-          {
-            "id": "String",
-            "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg",
-            "title": "String1",
-            "description": "String String String String String String String String String String String String String String String String String",
-            "info": "String String String String String String String v v v v String String String String String",
-            "button": {
-              "id": "12345",
-              "title": "Смотреть тарифы"
-            }
-          },
-          {
-            "id": "String1",
-            "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg",
-            "title": "String1",
-            "description": "String String String String String String String String String String String String String String String String String",
-            "info": "String String String String String String String v v v v String String String String String",
-            "button": {
-              "id": "12345",
-              "title": "Смотреть тарифы"
-            }
-          },
-          {
-            "id": "String2",
-            "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg",
-            "title": "String1",
-            "description": "String String String String String String String String String String String String String String String String String",
-            "info": "String String String String String String String v v v v String String String String String",
-            "button": {
-              "id": "12345",
-              "title": "Смотреть тарифы"
-            }
+      "id": "9",
+      "type": "SERVICES_ADDITIONAL",
+      "title": "Услуги и сервисы",
+      "serviceInfo": [
+        {
+          "title": "Доставка за 1 день",
+          "icon": "https://dev-re-1.hoff.ru/upload/iblock/7be/7beb9db5b3e007d37f73916bc8f43200.svg",
+          "description": "Доступна в 19 городах и список постоянно расширяется!",
+          "info": "",
+          "button": {
+            "link": "https://dev-re-1.hoff.ru/delivery/",
+            "title": "Смотреть города"
           }
-        ]
-      }
+        },
+        {
+          "title": "Самовывоз",
+          "icon": "https://dev-re-1.hoff.ru/upload/iblock/7fc/7fc048265c009aae5898bcff466c947c.svg",
+          "description": "Вы можете самостоятельно забрать свой заказ в наших пунктах самовывоза",
+          "info": "",
+          "button": {
+            "link": "https://dev-re-1.hoff.ru/delivery/samovyvoz/",
+            "title": "Подробнее"
+          }
+        },
+        {
+          "title": "Бесплатная доставка товаров для дома",
+          "icon": "https://dev-re-1.hoff.ru/upload/iblock/7a9/7a9ed86ddb0ad9199e16649ebef68a6d.svg",
+          "description": "Доставим товары для дома на сумму от 1 999 рублей",
+          "info": "",
+          "button": {
+            "link": "https://dev-re-1.hoff.ru/free_delivery/",
+            "title": "Смотреть условия"
+          }
+        },
+        {
+          "title": "Бесплатная доставка товаров для дома",
+          "icon": "https://dev-re-1.hoff.ru/upload/iblock/ec7/ec7be5685b4d98b465acc9aa1cf0c422.svg",
+          "description": "Доставим товары для дома на сумму от 999 рублей",
+          "info": "",
+          "button": {
+            "link": "https://dev-re-1.hoff.ru/free_delivery/",
+            "title": "Смотреть условия"
+          }
+        },
+        {
+          "title": "Вывоз старой мебели",
+          "icon": "https://dev-re-1.hoff.ru/upload/iblock/0e4/0e42453545f74c3a599a3e489e1d3be5.svg",
+          "description": "Вывезем старую мебель в день доставки",
+          "info": "",
+          "button": {
+            "link": "https://dev-re-1.hoff.ru/services/vyvoz-staroy-mebeli/",
+            "title": "Подробнее"
+          }
+        },
+        {
+          "title": "Сборка и установка",
+          "icon": "https://dev-re-1.hoff.ru/upload/iblock/132/132a9eb66eeebc5e0d41fcf11722445b.svg",
+          "description": "Соберем мебель и подключим бытовую технику",
+          "info": "",
+          "button": {
+            "link": "https://dev-re-1.hoff.ru/services/sborka_mebeli_i_ustanovka_tehniki/",
+            "title": "Смотреть тарифы"
+          }
+        },
+        {
+          "title": "Возврат и обмен",
+          "icon": "https://dev-re-1.hoff.ru/upload/iblock/b4e/b4e01328cb73fda236ed3716d3d04e78.svg",
+          "description": "Правила возврата и обмена товара",
+          "info": "",
+          "button": {
+            "link": "https://dev-re-1.hoff.ru/help/vozvrat-i-obmen/",
+            "title": "Узнать условия"
+          }
+        },
+        {
+          "title": "Пошив штор",
+          "icon": "https://dev-re-1.hoff.ru/upload/iblock/023/0231f5fcad0ea7a5af7213889c1d1b05.svg",
+          "description": "Сошьем шторы по индивидуальному заказу",
+          "info": "",
+          "button": {
+            "link": "https://dev-re-1.hoff.ru/services/vyezd-dizaynera-po-shtoram/",
+            "title": "Заказать услугу"
+          }
+        },
+        {
+          "title": "Химчистка мягкой мебели",
+          "icon": "https://dev-re-1.hoff.ru/upload/iblock/2f5/2f5ae7cf7497bde7489fbdc5dddd1c00.svg",
+          "description": "Почистим мебель и ковры у вас дома",
+          "info": "",
+          "button": {
+            "link": "https://dev-re-1.hoff.ru/services/khimchistka-mebeli-i-kovrov/",
+            "title": "Смотреть условия"
+          }
+        },
+        {
+          "title": "Замер помещения",
+          "icon": "https://dev-re-1.hoff.ru/upload/iblock/118/1185b82168ba5360bb8182291c70ce68.svg",
+          "description": "Сделаем план-схему для дальнейшего проектирования интерьера",
+          "info": "",
+          "button": {
+            "link": "https://dev-re-1.hoff.ru/services/zamer_pomescheniya/",
+            "title": "Заказать услугу"
+          }
+        },
+        {
+          "title": "Персональная видеоконсультация",
+          "icon": "https://dev-re-1.hoff.ru/upload/iblock/0d1/0d136da4bc2171224aea0dc856bf3ba9.svg",
+          "description": "Расскажем подробнее и ответим на вопросы, поможем выбрать ",
+          "info": "",
+          "button": {
+            "link": "https://dev-re-1.hoff.ru/services/online_consultations/",
+            "title": "Получить консультацию"
+          }
+        },
+        {
+          "title": "Планирование кухни со специалистом онлайн",
+          "icon": "https://dev-re-1.hoff.ru/upload/iblock/c2d/c2d1bc61d1b372f44078bcbcb8ac9e24.svg",
+          "description": "Создайте кухню мечты, не выходя из дома",
+          "info": "",
+          "button": {
+            "link": "https://dev-re-1.hoff.ru/services/planirovaniye_kuhni_onlain/",
+            "title": "Записаться на планирование"
+          }
+        },
+        {
+          "title": "Планирование кухни в магазине",
+          "icon": "https://dev-re-1.hoff.ru/upload/iblock/7d6/7d60680241b574c66220bd081bf975c9.svg",
+          "description": "Обсудим кухню мечты в удобное для вас время",
+          "info": "",
+          "button": {
+            "link": "https://dev-re-1.hoff.ru/services/planirovaniye_kuhni_v_magazine/",
+            "title": "Записаться на планирование"
+          }
+        },
+        {
+          "title": "Самостоятельное планирование кухни",
+          "icon": "https://dev-re-1.hoff.ru/upload/iblock/680/6804eb7ebcd1887c65ad0c6c0b030024.svg",
+          "description": "Выбирайте кухню и проектируйте ее под себя",
+          "info": "",
+          "button": {
+            "link": "https://dev-re-1.hoff.ru/kitchenplaner/",
+            "title": "Перейти к планированию"
+          }
+        }
+      ]
     },
     {
+      "id": "10",
       "type": "DESCRIPTION_PRODUCT_CATEGORIES",
-      "descriptionProductCategories": {
-        "id": "10",
-        "title": "Гостиная",
-        "description": "String String String String String String String v v v v String String String String String",
-        "productsCategories": [
-          {
-            "id": "String1",
-            "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg",
-            "title": "String1",
-            "description": "String String String String String String String String String String String String String String String String String"
-          },
-          {
-            "id": "String2",
-            "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg",
-            "title": "String1",
-            "description": "String String String String String String String String String String String String String String String String String"
-          },
-          {
-            "id": "String3",
-            "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg",
-            "title": "String1",
-            "description": "String String String String String String String String String String String String String String String String String"
-          }
-        ]
-      }
+      "title": "Гостиная",
+      "description": "String String String String String String String v v v v String String String String String",
+      "productsCategories": [
+        {
+          "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg",
+          "title": "String1",
+          "description": "String String String String String String String String String String String String String String String String"
+        },
+        {
+          "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg",
+          "title": "String1",
+          "description": "String String String String String String String String String String String String String String String String"
+        },
+        {
+          "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg",
+          "title": "String1",
+          "description": "String String String String String String String String String String String String String String String String"
+        }
+      ]
     },
     {
+      "id": "11",
       "type": "PRODUCTS_WITH_PHOTO",
       "button": {
         "id": "12345",
         "title": "Смотреть товары с фото"
       },
       "productsWithPhoto": {
-        "id": "11",
-        "productsPhoto": [
+        "banner": "https://dev-re-1.hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg",
+        "products": [
           {
-            "id": "String1",
-            "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg"
+            "id": "202133",
+            "image": "https://dev-re-1.hoff.ru/upload/iblock/0d8/0d8d43865c8bea8a1ce809592b4ad8bd.jpg"
           },
           {
-            "id": "String2",
-            "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg"
+            "id": "182479",
+            "image": "https://dev-re-1.hoff.ru/upload/iblock/fd8/fd8161f01c260fdc74a35a4edcd66e19.jpg"
           },
           {
-            "id": "String3",
-            "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg"
-          },
-          {
-            "id": "String4",
-            "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg"
-          },
-          {
-            "id": "String5",
-            "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg"
+            "id": "6519121",
+            "image": "https://dev-re-1.hoff.ru/upload/iblock/405/405e38c26f4e49fb5c9efbc6c77356c0.jpg"
           }
         ]
       }
     },
     {
-      "type": "PRODUCTS_SLIDER_DESCRIPTION",
-      "productsSliderDescription": {
-        "id": "12",
-        "productsDecription": [
-          {
-            "id": "String1",
-            "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg",
-            "title": "title1",
-            "description": "descriptiondescriptiondescription description description description description description v v description"
-          },
-          {
-            "id": "String2",
-            "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg",
-            "title": "title1",
-            "description": "descriptiondescriptiondescription description description description description description v v description"
-          },
-          {
-            "id": "String3",
-            "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg",
-            "title": "title1",
-            "description": "descriptiondescriptiondescription description description description description description v v description"
-          }
-        ]
-      }
+      "id": "12",
+      "type": "SLIDER_DESCRIPTION",
+      "sliders": [
+        {
+          "id": "String1",
+          "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg",
+          "title": "title1",
+          "description": "descriptiondescriptiondescription description description description description description v v description"
+        },
+        {
+          "id": "String2",
+          "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg",
+          "title": "title1",
+          "description": "descriptiondescriptiondescription description description description description description v v description"
+        },
+        {
+          "id": "String3",
+          "image": "https://dev-re-1.hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg",
+          "title": "title1",
+          "description": "descriptiondescriptiondescription description description description description description v v description"
+        }
+      ]
     },
     {
+      "id": "13",
       "type": "VIDEO",
       "videoRecomend": {
-        "id": "13",
-        "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg",
-        "videoURL": "https://www.youtube.com/embed/dfWQjrdpiP8",
+        "image": "https://dev-re-1.hoff.ru/upload/medialibrary/3a0/3a01011629a822d4fbf25a6946573f14.png",
+        "link": "https://youtu.be/S0TlhFntyac",
+        "title": "Советы дизайнера: как подобрать освещение",
         "unnumberatedInfo": [
-          {
-            "id": "String",
-            "title": "String",
-            "list": [
-              "String",
-              "String2",
-              "String3"
-            ]
-          },
-          {
-            "id": "String",
-            "title": "String",
-            "list": [
-              "String4",
-              "String5",
-              "String6"
-            ]
-          }
+          "по типу комнаты",
+          "по расположению",
+          "по типу комнаты",
+          "по мощности"
         ]
       }
     },
     {
-      "type": "RECOMENDS_INFO",
-      "recomendInfo": {
-        "id": "14",
-        "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg",
+      "id": "14",
+      "type": "RECOMMENDS_INFO",
+      "recommendInfo": {
+        "image": "https://dev-re-1.hoff.ru/upload/medialibrary/7ab/7abfaa45c344290f5a9d9951f387ca29.jpg",
         "title": "Как замерить окно для штор",
         "unnumberatedInfo": [
           {
-            "id": "String",
-            "title": "String",
+            "title": "Выбирайте готовые шторы если:",
             "list": [
-              "String",
-              "String2",
-              "String3"
+              "У вас стандартная высота потолка",
+              "Хочется сэкономить время"
             ]
           },
           {
-            "id": "String",
-            "title": "String",
+            "title": "Стоит выбрать шторы под заказ если:",
             "list": [
-              "String4",
-              "String5",
-              "String6"
+              "У вас стандартная высота потолка",
+              "Хочется сэкономить время"
             ]
           }
         ]
       }
     },
     {
-      "type": "PRODUCTS_STYLE",
+      "id": "15",
+      "type": "CATEGORIES",
       "button": {
-        "id": "12345",
-        "title": "Смотреть все в стиле лофт"
+        "id": "1353",
+        "title": "Вся бытовая техника"
       },
-      "productsStyle": {
-        "id": "15",
-        "landingCategories": [
-          {
-            "id": "String1",
-            "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg",
-            "title": "name 1",
-            "discount": null
-          },
-          {
-            "id": "String2",
-            "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg",
-            "title": "name 3",
-            "discount": null
-          },
-          {
-            "id": "String3",
-            "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg",
-            "title": "name 5",
-            "discount": null
-          }
-        ]
-      }
+      "categories": [
+        {
+          "id": "1354",
+          "title": "Техника для кухни",
+          "image": "https://dev-re-1.hoff.ru/upload/medialibrary/2cb/2cb720dfa7f4e197aba0ae1058a20735.jpg",
+          "discount": 36
+        },
+        {
+          "id": "6307",
+          "title": "Камины",
+          "image": "https://dev-re-1.hoff.ru/upload/medialibrary/80f/80fdb16bfd5be0ad64fff761dd4e4733.jpg",
+          "discount": 26
+        },
+        {
+          "id": "6309",
+          "title": "Техника для уборки",
+          "image": "https://dev-re-1.hoff.ru/upload/medialibrary/252/252c584563c3bc8c8165e9c50ea7d2a5.jpg",
+          "discount": null
+        },
+        {
+          "id": "6308",
+          "title": "Умная техника",
+          "image": "https://dev-re-1.hoff.ru/upload/medialibrary/9e9/9e9e081ffbd4202d523d37c4d107d241.jpg",
+          "discount": 54
+        }
+      ]
     },
     {
-      "type": "ADDITIONAL_RECOMEND_INFO",
+      "id": "16",
+      "type": "ADDITIONAL_RECOMMEND_INFO",
+      "title": "Всех гостей к столу!",
+      "description": "Всех гостей к столу! Где найти тайного торговца аурой Где найти тайного торговца аурой",
       "additionalRecomendInfo": {
-        "id": "16",
-        "title": "Всех гостей к столу!",
-        "description": "Всех гостей к столу! Где найти тайного торговца аурой Где найти тайного торговца аурой",
-        "question": "Где найти тайного торговца аурой",
         "unnumberatedInfo": [
+          "Акционные товары продаются со скидками",
+          "Товар участвующий в акции не может быть оплачен с использованием бонусных рублей.",
+          "Акционные товары можно преобрести в кредит."
+        ]
+      }
+    },
+    {
+      "id": "17",
+      "type": "GIFTS_IDEA",
+      "title": "Идея для подарков!",
+      "description": "Порадуйте себя и близких приятными подарками",
+      "gifts": {
+        "question": "Как обустроить посадочные места у стола, чтобы это выглядело стильно и гармонично?",
+        "products": [
           {
-            "id": "String",
-            "title": "String",
-            "list": [
-              "String",
-              "String2",
-              "String3"
-            ]
+            "id": "4459398",
+            "image": "https://dev-re-1.hoff.ru/upload/iblock/b2c/b2cdcaf358543b7fa1f1d1b855134f78.jpg",
+            "discount": 20,
+            "title": "Сотейник BERKRAFT Milford 26 см",
+            "articul": "80324909",
+            "description": "Сотейник Milford одинаково удобен для приготовления мясных блюд и гарниров. Изделие отличается увеличенной глубиной по сравнению с обычной сковородой, что позволяет тушить и припускать овощи в большом количестве жидкости. Высокие стенки не дадут рассыпаться крупе при интенсивном перемешивании каши или плова. Многослойное дно обеспечивает равномерный нагрев всей поверхности и предотвращает пригорание продуктов. Ручка имеет оптимальную длину, чтобы ее легко было удерживать одной рукой.",
+            "prices": {
+              "new": "1199.00",
+              "old": "1499.00"
+            },
+            "isBestPrice": false,
+            "button": {
+              "id": "1043",
+              "title": "Смотреть все Сотейники, жаровни"
+            }
           },
           {
-            "id": "String",
-            "title": "String",
-            "list": [
-              "String4",
-              "String5",
-              "String6"
-            ]
+            "id": "6695298",
+            "image": "https://dev-re-1.hoff.ru/upload/iblock/c66/c66aba476a80068a6e5ac69bdda4ee74.jpg",
+            "discount": 0,
+            "title": "Сковорода с крышкой MoulinVILLA Chef ",
+            "articul": "80355079",
+            "description": "Сковорода Chef универсальна и подходит для обжаривания рыбы, тушения мяса, пассеровки овощей. Высокие бортики делают возможным приготовление плова или фаршированных перцев. Емкость можно использовать в качестве формы для запекания в духовом шкафу или доведения до полной готовности предварительно обжаренной индейки, котлет по-киевски. Благодаря антипригарному покрытию расход масла будет минимальным. Съемная ручка с тактильно приятной поверхностью оснащена надежно фиксирующим замком. В стеклянной крышке предусмотрено паровыпускающее отверстие.",
+            "prices": {
+              "new": "2899.00",
+              "old": "2899.00"
+            },
+            "isBestPrice": false,
+            "button": {
+              "id": "1040",
+              "title": "Смотреть все Сковороды с антипригарным покрытием"
+            }
+          },
+          {
+            "id": "4883365",
+            "image": "https://dev-re-1.hoff.ru/upload/iblock/777/7772c539ff9990caa24268f1b7b9f42e.jpg",
+            "discount": 0,
+            "title": "Сковорода с крышкой BERKRAFT Miranda 24 см",
+            "articul": "80324130",
+            "description": "Сковорода Miranda станет отличным помощником на кухне. Изделие выполнено из качественного материала, с покрытием, в состав которого входит мраморная крошка. Благодаря выразительному мраморному рисунку изделие выглядит стильно и современно. Ручка эргономичной формы обеспечивает удобный захват. Стеклянная крышка имеет металлический ободок, защищающий стекло от повреждений. Крышка снабжена держателем и отверстием для выпуска излишнего пара. Инновационное покрытие исключает прилипание и приставание пищи к поверхности изделия. Посуда равномерно прогревается по всей поверхности, имеет оптимальную глубину для приготовления всевозможных блюд. Для сохранения эксплуатационных свойств изделия рекомендуется применение при перемешивании деревянных и силиконовых аксессуаров.",
+            "prices": {
+              "new": "1699.00",
+              "old": "1699.00"
+            },
+            "isBestPrice": false,
+            "button": {
+              "id": "1040",
+              "title": "Смотреть все Сковороды с антипригарным покрытием"
+            }
+          },
+          {
+            "id": "2154816",
+            "image": "https://dev-re-1.hoff.ru/upload/iblock/28a/28a78a1d1433dd762f6e4c38dae9fe51.jpg",
+            "discount": 80,
+            "title": "Крышка от насекомых LID-30 30&amp;nbsp;см, Нержавеющая&amp;nbsp;сталь",
+            "articul": "80297116",
+            "description": "Трапезу на свежем воздухе с нами всегда пытаются разделить мухи, осы и прочие летающие насекомые. Сетчатая крышка из нержавеющей стали надежно защитит от них фрукты, салат или бутерброды, приготовленные к столу. Изделие выполнено в форме купола и снабжено пластиковой ручкой. Такая вещь придется к месту на даче, в загородном доме и городской квартире.",
+            "prices": {
+              "new": "68.00",
+              "old": "349.00"
+            },
+            "isBestPrice": false,
+            "button": {
+              "id": "1038",
+              "title": "Смотреть все Крышки для сковород, кастрюль и СВЧ"
+            }
+          },
+          {
+            "id": "3688847",
+            "image": "https://dev-re-1.hoff.ru/upload/iblock/361/361ebde2f8db9a2141ca06e8f19d46ae.jpg",
+            "discount": 0,
+            "title": "Крышка 4726 26&amp;nbsp;см, Стекло",
+            "articul": "80321237",
+            "description": "",
+            "prices": {
+              "new": "429.00",
+              "old": "429.00"
+            },
+            "isBestPrice": false,
+            "button": {
+              "id": "1038",
+              "title": "Смотреть все Крышки для сковород, кастрюль и СВЧ"
+            }
           }
         ]
       }
     },
     {
-      "type": "IDEA_FOR_GIFTS_PRODUCTS",
-      "ideaForGiftsProducts": {
-        "id": "17",
-        "title": "Идея для подарков!",
-        "description": "Порадуйте себя и близких приятными подарками",
-        "giftsItems": [
-          {
-            "id": "123123",
-            "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg",
-            "discount": 43,
-            "title": "Диван-кровать Парма",
-            "articul": "1624827601",
-            "description": "Где найти тайного торговца аурой",
-            "price": 1000,
-            "oldPrice": 2000,
-            "button": {
-              "id": "142345",
-              "title": "Смотреть все в стиле лофт"
-            }
-          },
-          {
-            "id": "123123",
-            "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg",
-            "discount": 43,
-            "title": "Диван-кровать Парма",
-            "articul": "1624827601",
-            "description": "Где найти тайного торговца аурой",
-            "price": 1000,
-            "oldPrice": 2000,
-            "button": {
-              "id": "142345",
-              "title": "Смотреть все в стиле лофт"
-            }
-          },
-          {
-            "id": "123123",
-            "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg",
-            "discount": 43,
-            "title": "Диван-кровать Парма",
-            "articul": "1624827601",
-            "description": "Где найти тайного торговца аурой",
-            "price": 1000,
-            "oldPrice": 2000,
-            "button": {
-              "id": "142345",
-              "title": "Смотреть все в стиле лофт"
-            }
-          },
-          {
-            "id": "123123",
-            "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg",
-            "discount": 43,
-            "title": "Диван-кровать Парма",
-            "articul": "1624827601",
-            "description": "Где найти тайного торговца аурой",
-            "price": 1000,
-            "oldPrice": 2000,
-            "button": {
-              "id": "142345",
-              "title": "Смотреть все в стиле лофт"
-            }
-          }
-        ]
-      }
-    },
-    {
+      "id": "18",
       "type": "CREDITLINE_INFO",
-      "creditlineInfo": {
-        "id": "18",
-        "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in leo sollicitudin, blandit nunc quis, euismod leo. Nam mollis imperdiet tempus. Etiam lacus dolor, mollis sit amet quam scelerisque, venenatis lacinia dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque venenatis vulputate ante at finibus. Sed et mattis odio, id iaculis nisi. Duis nec justo neque. Donec ultrices ornare sapien accumsan tincidunt. Suspendisse quis neque ornare justo egestas lacinia vel ac libero. Duis id urna sed magna tristique vehicula in at augue. Phasellus pellentesque feugiat massa euismod suscipit. Praesent imperdiet sapien arcu, vitae hendrerit urna rhoncus non. Phasellus nec augue odio. Aenean venenatis laoreet nisl a maximus. Nullam ullamcorper lacus lectus, at finibus ante porttitor eu. Nam vel est facilisis, tristique nibh in, facilisis nisl"
-      }
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in leo sollicitudin, blandit nunc quis, euismod leo.",
+      "buttons": [
+        {
+          "id": "223",
+          "title": "Смотреть схему проезда"
+        },
+        {
+          "id": "129",
+          "title": "Правила самовывоза"
+        },
+        {
+          "id": "332",
+          "title": "Перечень документов"
+        }
+      ]
     },
     {
-      "type": "INFO_BUTTONS",
-      "infoButtons": {
-        "id": "19",
-        "buttons": [
-          {
-            "id": "223",
-            "title": "Смотреть схему проезда"
-          },
-          {
-            "id": "129",
-            "title": "Правила самовывоза"
-          },
-          {
-            "id": "332",
-            "title": "Перечень документов "
-          }
-        ]
-      }
-    },
-    {
+      "id": "19",
       "type": "GALERY",
-      "galery": {
-        "id": "20",
-        "title": "Галерея",
-        "images": [
-          "https://hoff.ru/upload/iblock/a29/a292dc8e3ecff8e4472a544f816c8124.jpg",
-          "https://hoff.ru/upload/iblock/57b/57bd470d70afa7d23a7e8325feefdf23.jpg",
-          "https://hoff.ru/upload/iblock/e67/e6720679858fb6ead7047d20ec6c69ce.jpg",
-          "https://hoff.ru/upload/iblock/b07/b078073cbfcea39d91b3a3786b75650b.jpg",
-          "https://hoff.ru/upload/iblock/8c3/8c3441f9752f5d5cab59bea1ff7259ca.jpg"
-        ]
-      }
+      "title": "Галерея",
+      "images": [
+        "https://dev-re-1.hoff.ru/upload/iblock/a29/a292dc8e3ecff8e4472a544f816c8124.jpg",
+        "https://dev-re-1.hoff.ru/upload/iblock/57b/57bd470d70afa7d23a7e8325feefdf23.jpg",
+        "https://dev-re-1.hoff.ru/upload/iblock/e67/e6720679858fb6ead7047d20ec6c69ce.jpg",
+        "https://dev-re-1.hoff.ru/upload/iblock/b07/b078073cbfcea39d91b3a3786b75650b.jpg",
+        "https://dev-re-1.hoff.ru/upload/iblock/8c3/8c3441f9752f5d5cab59bea1ff7259ca.jpg"
+      ]
     },
     {
-      "type": "CATEGORIES_FOR_CLIENTS",
-      "categoriesForClients": {
-        "id": "21",
-        "title": "Категории",
-        "categories": [
-          {
-            "id": "String1",
-            "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg"
-          },
-          {
-            "id": "String2",
-            "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg"
-          },
-          {
-            "id": "String3",
-            "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg"
-          }
-        ]
-      }
+      "id": "20",
+      "type": "CATEGORIES_CUSTOMERS",
+      "title": "Категории",
+      "categories": [
+        {
+          "id": "String1",
+          "image": "https://dev-re-1.hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg"
+        },
+        {
+          "id": "String2",
+          "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg"
+        },
+        {
+          "id": "String3",
+          "image": "https://hoff.ru/upload/iblock/5e8/5e81fa8ba4f98ca461c251fd461138b0.jpg"
+        }
+      ]
     }
   ]
 }
