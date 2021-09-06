@@ -195,72 +195,111 @@
       },
       "products": [
         {
-          "id": "112589",
-          "name": "Овощечистка Presto",
+          "id": "5517443",
+          "name": "Набор протекторов для мебели MITTE HD190327 ",
           "image": "https://im0-tub-ru.yandex.net/i?id=143aefaf4a6a28d1810ae1dd8cc09f72&ref=rim&n=33&w=419&h=300",
           "isFavorite": false,
           "prices": {
-            "new": 339,
-            "old": 339
+            "new": 129,
+            "old": 199
           },
-          "discount": 0,
+          "discount": 35,
           "isBestPrice": false,
-          "articul": "80001201",
+          "tag": null,
+          "articul": "80332882",
           "rating": 5,
+          "numberOfReviews": 1,
+          "statusText": "Доступно для доставки 30 шт.",
           "offers": null,
           "unique_title": "Размер спального места",
-          "available": "Доступно для доставки 3 шт."
+          "isAvailable": true,
+          "images": [
+            "https://im0-tub-ru.yandex.net/i?id=143aefaf4a6a28d1810ae1dd8cc09f72&ref=rim&n=33&w=419&h=300",
+            "https://im0-tub-ru.yandex.net/i?id=143aefaf4a6a28d1810ae1dd8cc09f72&ref=rim&n=33&w=419&h=300"
+          ],
+          "categoryId": "6886",
+          "categoryTitle": "Мебельные протекторы"
         },
         {
-          "id": "112591",
-          "name": "Скребок для рыбьей чешуи Presto ",
+          "id": "6944355",
+          "name": "Сменная кассета Актив Сила Иммунитета ",
           "image": "https://im0-tub-ru.yandex.net/i?id=143aefaf4a6a28d1810ae1dd8cc09f72&ref=rim&n=33&w=419&h=300",
           "isFavorite": false,
           "prices": {
-            "new": 499,
-            "old": 499
+            "new": 349,
+            "old": 349
           },
           "discount": 0,
           "isBestPrice": false,
-          "articul": "80001203",
+          "tag": null,
+          "articul": "80365015",
           "rating": 0,
+          "numberOfReviews": 0,
+          "statusText": "Доступно для доставки 30 шт.",
           "offers": null,
           "unique_title": "Размер спального места",
-          "available": "Доступно для доставки 3 шт."
+          "isAvailable": true,
+          "images": [
+            "https://im0-tub-ru.yandex.net/i?id=143aefaf4a6a28d1810ae1dd8cc09f72&ref=rim&n=33&w=419&h=300",
+            "https://im0-tub-ru.yandex.net/i?id=143aefaf4a6a28d1810ae1dd8cc09f72&ref=rim&n=33&w=419&h=300",
+            "https://im0-tub-ru.yandex.net/i?id=143aefaf4a6a28d1810ae1dd8cc09f72&ref=rim&n=33&w=419&h=300"
+          ],
+          "categoryId": "6884",
+          "categoryTitle": "Мелочи для кухни"
         },
         {
-          "id": "112597",
-          "name": "Орехокол Presto ",
+          "id": "6944363",
+          "name": "Сменная кассета Актив Сила Красоты ",
           "image": "https://im0-tub-ru.yandex.net/i?id=143aefaf4a6a28d1810ae1dd8cc09f72&ref=rim&n=33&w=419&h=300",
           "isFavorite": false,
           "prices": {
-            "new": 699,
-            "old": 699
+            "new": 349,
+            "old": 349
           },
           "discount": 0,
           "isBestPrice": false,
-          "articul": "80001211",
-          "rating": 5,
+          "tag": null,
+          "articul": "80365016",
+          "rating": 0,
+          "numberOfReviews": 0,
+          "statusText": "Доступно для доставки 30 шт.",
           "offers": null,
           "unique_title": "Размер спального места",
-          "available": "Доступно для доставки 21 шт."
+          "isAvailable": true,
+          "images": [
+            "https://im0-tub-ru.yandex.net/i?id=143aefaf4a6a28d1810ae1dd8cc09f72&ref=rim&n=33&w=419&h=300",
+            "https://im0-tub-ru.yandex.net/i?id=143aefaf4a6a28d1810ae1dd8cc09f72&ref=rim&n=33&w=419&h=300",
+            "https://im0-tub-ru.yandex.net/i?id=143aefaf4a6a28d1810ae1dd8cc09f72&ref=rim&n=33&w=419&h=300"
+          ],
+          "categoryId": "6884",
+          "categoryTitle": "Мелочи для кухни"
         },
         {
-          "id": "112599",
-          "name": "Открывашка Presto ",
+          "id": "6944373",
+          "name": "Сменная кассета Актив Сила Сердца ",
           "image": "https://im0-tub-ru.yandex.net/i?id=143aefaf4a6a28d1810ae1dd8cc09f72&ref=rim&n=33&w=419&h=300",
           "isFavorite": false,
           "prices": {
-            "new": 399,
-            "old": 559
+            "new": 349,
+            "old": 349
           },
-          "discount": 28,
+          "discount": 0,
           "isBestPrice": false,
-          "articul": "80001215",
-          "rating": 5,
+          "tag": null,
+          "articul": "80365017",
+          "rating": 0,
+          "numberOfReviews": 0,
+          "statusText": "Доступно для доставки 30 шт.",
           "offers": null,
           "unique_title": "Размер спального места",
-          "available": "Доступно для доставки 10 шт."
+          "isAvailable": true,
+          "images": [
+            "https://im0-tub-ru.yandex.net/i?id=143aefaf4a6a28d1810ae1dd8cc09f72&ref=rim&n=33&w=419&h=300",
+            "https://im0-tub-ru.yandex.net/i?id=143aefaf4a6a28d1810ae1dd8cc09f72&ref=rim&n=33&w=419&h=300",
+            "https://im0-tub-ru.yandex.net/i?id=143aefaf4a6a28d1810ae1dd8cc09f72&ref=rim&n=33&w=419&h=300"
+          ],
+          "categoryId": "6884",
+          "categoryTitle": "Мелочи для кухни"
         }
       ]
     },
